@@ -1,0 +1,105 @@
+*{
+    margin : 0%
+}
+.header_bar{
+    position: relative;
+    width: 100vw;
+    height: 80px;
+    background-color: rgb(63,63,206);
+    
+}
+.header_bouton{
+    display: active;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+}
+.header_nav{
+    display: hidden;
+    width: 300px;
+    height : 100vh;
+    background-color: rgb(63,63,206);
+    color : white;
+    font-family: "Gill Sans"; 
+    position: fixed;
+    left: -300px;
+    transition: all 1s;
+}
+.header_nav.active{
+    left: 0px;
+    display: active;
+    width: 300px;
+    height : 100vh;
+    background-color: rgb(63,63,206);
+    color : white;
+    font-family: "Gill Sans"; 
+    position: fixed;
+    transition: all 1s;
+}
+li{
+    list-style-type: none;
+    padding-top: 20px;
+}
+.header_logo{
+    position: absolute;
+    right: 1200px ;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    
+}
+
+
+h1{
+    color: black;
+    font-family: sans-serif; 
+    font-size: "35px";
+    padding-left : 20px;
+    float : center;
+    padding-top: 10px;
+}
+.canoe{
+    position: static;
+    width: 90%;
+    margin: 0 auto;
+}
+.canoe img{
+    width: 100%;
+}
+  
+
+.text{
+    position: absolute;
+    color : white;
+    font-family: Arial;
+    padding-top: 25%;
+    top : 50%;
+    width : 100%;
+    text-align : center;
+
+}
+h2{
+    color : green;
+    font-family: Arial;
+}
+@media screen and (max-width: 800px){
+	h1 {
+		font-size: 28px;
+	}
+	h2 {
+		font-size: 20px;
+	}
+    h3 {
+        font-size: 18px;
+    }
+    h4 {
+        font-size: 16px;
+    }
+	p {
+		font-size: 14px;
+	}
+
+main{
+    width: 1200px;
+}
+}
